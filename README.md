@@ -5,7 +5,7 @@ Already realized patterns:
 
 - [State](https://refactoring.guru/design-patterns/state)
 
-## Requirements
+## Project requirements
 
 - Node version 20
 - NPM with npx
