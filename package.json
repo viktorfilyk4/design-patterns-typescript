@@ -1,7 +1,6 @@
 {
   "name": "design-patterns-typescript",
   "version": "1.0.0",
-  "main": "",
   "engines": {
     "node": "20"
   },
