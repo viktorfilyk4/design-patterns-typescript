@@ -8,7 +8,6 @@ Already realized patterns:
 ## Project requirements
 
 - Node version 20
-- NPM with npx
 
 ## Setup and test
 
