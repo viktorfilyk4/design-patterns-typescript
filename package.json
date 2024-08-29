@@ -1,12 +1,11 @@
 {
   "name": "design-patterns-typescript",
   "version": "1.0.0",
-  "main": "",
   "engines": {
     "node": "20"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky",
     "pattern:state": "ts-node ./patterns/state/index.ts"
   },
   "keywords": [],
@@ -15,10 +14,16 @@
   "description": "",
   "devDependencies": {
     "@types/chalk": "^0.4.31",
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.9",
+    "prettier": "3.3.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   },
   "dependencies": {
     "chalk": "^4.1.2"
+  },
+  "lint-staged": {
+    "*.(ts|json|md)": "prettier --write"
   }
 }
