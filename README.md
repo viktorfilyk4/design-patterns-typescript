@@ -14,6 +14,6 @@ Already realized patterns:
 
 - `git clone`
 - `npm ci`
-- Run pattern realization from `scripts` in `package.json`.
-  Scripts' names in format: `pattern:${pattern_name}`.
+- Run pattern realization from `scripts` in `package.json`.  
+  Scripts' names in format: `pattern:${pattern_name}`.  
   For example: `npm run pattern:state`
