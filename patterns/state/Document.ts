@@ -1,4 +1,4 @@
-import { blueLogger } from "../../utils/loggers"
+import { logger } from "../../utils/logger"
 import DraftState from "./document-states/draft"
 import { DocumentState } from "./types"
 
@@ -16,7 +16,7 @@ export default class Document {
   }
 
   logMetadata() {
-    blueLogger(`
+    logger.blue(`
 ---------------> DOCUMENT <-----------------
 Text: ${this.text}
 Approved by: ${this.approvedBy}
