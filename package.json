@@ -6,7 +6,8 @@
   },
   "scripts": {
     "prepare": "husky",
-    "pattern:state": "ts-node ./patterns/state/index.ts"
+    "pattern:state": "ts-node ./patterns/state/index.ts",
+    "pattern:proxy": "ts-node ./patterns/proxy/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
   "description": "",
   "devDependencies": {
     "@types/chalk": "^0.4.31",
+    "@types/sqlite3": "^3.1.11",
     "husky": "^9.1.5",
     "lint-staged": "^15.2.9",
     "prettier": "3.3.3",
@@ -21,7 +23,8 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "chalk": "^4.1.2"
+    "chalk": "^4.1.2",
+    "sqlite3": "^5.1.7"
   },
   "lint-staged": {
     "*.(ts|json|md)": "prettier --write"
