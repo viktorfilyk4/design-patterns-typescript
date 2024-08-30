@@ -4,6 +4,7 @@ All patterns' realizations are in `patterns` folder.
 Already realized patterns:
 
 - [State](https://refactoring.guru/design-patterns/state)
+- [Proxy](https://refactoring.guru/design-patterns/proxy)
 
 ## Project requirements
 
